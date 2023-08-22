@@ -1,0 +1,26 @@
+@media (max-width:800px)
+{
+    .game-container{
+        flex-wrap: wrap;
+    }
+    .gameinfo{
+        margin-top: 2rem;
+    }
+    .gameinfo h1{
+        font-size: 1.5rem;
+    }
+    .info{
+        font-size: 1.9rem;
+    }
+    .container{
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+    .line{
+        display: none;
+    }
+    .gameinfo{
+        margin-left: -0.3rem;
+    }
+
+}

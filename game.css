@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+    background-color: black;
+}
+
+nav{
+    background-color: brown;
+    color: white;
+    height: 4rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    font-family: 'Roboto',sans-serif;
+}
+nav ul{
+    list-style-type: none;
+}
+.game-container{
+    /* background-color: grey; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: sans-serif;
+    position: relative;
+    background-color: black;
+
+}
+.box{
+    border: 2px solid white;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background-color: cornflowerblue;
+}
+.gameinfo{
+    padding: 0 2rem;
+    background-color: #232323;
+    color: white;
+    margin-left: 2rem;
+    border-radius: 0.4rem;
+}
+.gameinfo h1{
+    font-size: 2.5rem;
+}
+.imgbox img{
+    width: 0;
+    height: 12rem;
+    transition: width 1s ease-in-out;
+    margin-top: 2rem;
+}
+.info{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.line{
+    width: 0;
+    height: 10px;
+    position: absolute;
+    background-color: wheat;
+    transition: width 1s ease-in-out;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#reset{
+    margin-left: 1rem;
+    padding: 0.5rem 3rem;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(13, 219, 20);
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#reset:hover{
+    background-color: red;
+
+}
+.boxtext{
+    color: red;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+
+}
+
